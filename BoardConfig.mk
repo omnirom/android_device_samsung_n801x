@@ -1,5 +1,6 @@
 #
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2013 OmniROM Project
+# Copyright (C) 2013 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,16 +18,12 @@
 # Include n80xx BoardConfigCommon
 -include device/samsung/n80xx-common/BoardConfigCommon.mk
 
-# Inline kernel building
-#FIXME NOT READY YET - NEEDS DEFCONFIG
-#TARGET_KERNEL_SOURCE := kernel/samsung/n8000
-#TARGET_KERNEL_CONFIG := cyanogenmod_n8013_defconfig
-
+# Kernel building
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
-TARGET_KERNEL_CONFIG := custom_n8013_defconfig
+TARGET_KERNEL_CONFIG := custom_n801x_defconfig
 
-# assert
-TARGET_OTA_ASSERT_DEVICE := c0,p4notewifi,p4notewifiww,n8013,GT-N8013
+# Assert
+TARGET_OTA_ASSERT_DEVICE := c0,p4notewifi,p4notewifiww,n8013,GT-N8013,n8010,GT-N8010,n801x,GT-N801x
 
-#Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/n8013/bluetooth
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/n801x/bluetooth

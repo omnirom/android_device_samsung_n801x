@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2013 OmniROM Project
  * Copyright (C) 2012 The Android Open Source Project
  * Copyright (C) 2012 The CyanogenMod Project <http://www.cyanogenmod.org>
  *
@@ -18,6 +19,6 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME   "GT-N8013"
+#define BTM_DEF_LOCAL_NAME   "GT-N801x"
 
 #endif
