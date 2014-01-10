@@ -1,1 +1,1 @@
-add_lunch_combo omni_n8013-userdebug
+add_lunch_combo omni_n801x-userdebug
