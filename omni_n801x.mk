@@ -16,15 +16,15 @@
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/n8013/full_n8013.mk)
+$(call inherit-product, device/samsung/n801x/full_n801x.mk)
 
 # Discard inherited values and use our own instead.
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := n8013
-PRODUCT_NAME := omni_n8013
+PRODUCT_DEVICE := n801x
+PRODUCT_NAME := omni_n801x
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := GT-N8013
+PRODUCT_MODEL := GT-N801x
 PRODUCT_MANUFACTURER := samsung
 
 # Set build fingerprint / ID / Product Name etc.

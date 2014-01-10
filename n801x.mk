@@ -16,18 +16,18 @@
 
 $(call inherit-product, device/samsung/n80xx-common/n80xx-common.mk)
 
-LOCAL_PATH := device/samsung/n8013
+LOCAL_PATH := device/samsung/n801x
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 
 # Rootdir
 PRODUCT_COPY_FILES += \
-    device/samsung/n8013/rootdir/init.target.rc:root/init.target.rc
+    device/samsung/n801x/rootdir/init.target.rc:root/init.target.rc
 
 # Audio
 PRODUCT_COPY_FILES += \
-    device/samsung/n80xx-common/configs/tiny_hw.xml:system/etc/sound/GT-N8013
+    device/samsung/n80xx-common/configs/tiny_hw.xml:system/etc/sound/GT-N801x
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
@@ -35,5 +35,5 @@ PRODUCT_COPY_FILES += \
 
 # Gps
 PRODUCT_COPY_FILES += \
-    device/samsung/n8013/configs/gps.conf:system/etc/gps.conf \
-    device/samsung/n8013/configs/gps.xml:system/etc/gps.xml
+    device/samsung/n801x/configs/gps.conf:system/etc/gps.conf \
+    device/samsung/n801x/configs/gps.xml:system/etc/gps.xml

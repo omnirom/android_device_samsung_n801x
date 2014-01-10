@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_n8013.mk \
-    $(LOCAL_DIR)/omni_n8013.mk
+    $(LOCAL_DIR)/full_n801x.mk \
+    $(LOCAL_DIR)/omni_n801x.mk
