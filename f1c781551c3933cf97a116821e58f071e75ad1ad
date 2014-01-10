@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6b8b61a3_168f2ed1",
+        "filename": "omni_n801x.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000183
+      },
+      "writtenOn": "2014-01-10T14:14:58Z",
+      "side": 1,
+      "message": "Just making sure, by leaving the build.prop values as GT-N8013 we allow users to move back to n8013 ROMs, right? Though actually, the sound config depends on one of these values, so we would need to change TARGET_DEVICE GT-N801x I think? But then, wouldn\u0027t the asserts fail if users tried to install an n8013 ROM?",
+      "revId": "f1c781551c3933cf97a116821e58f071e75ad1ad",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
