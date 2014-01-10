@@ -1,5 +1,6 @@
 #
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2013 OmniROM Project
+# Copyright (C) 2013 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,14 +17,14 @@
 
 $(call inherit-product, device/samsung/n80xx-common/n80xx-common.mk)
 
-LOCAL_PATH := device/samsung/n8013
+LOCAL_PATH := device/samsung/n801x
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 
 # Rootdir
 PRODUCT_COPY_FILES += \
-    device/samsung/n8013/rootdir/init.target.rc:root/init.target.rc
+    device/samsung/n801x/rootdir/init.target.rc:root/init.target.rc
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -35,5 +36,5 @@ PRODUCT_COPY_FILES += \
 
 # Gps
 PRODUCT_COPY_FILES += \
-    device/samsung/n8013/configs/gps.conf:system/etc/gps.conf \
-    device/samsung/n8013/configs/gps.xml:system/etc/gps.xml
+    device/samsung/n801x/configs/gps.conf:system/etc/gps.conf \
+    device/samsung/n801x/configs/gps.xml:system/etc/gps.xml
