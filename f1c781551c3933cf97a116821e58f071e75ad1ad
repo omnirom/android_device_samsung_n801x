@@ -16,6 +16,24 @@
       "revId": "f1c781551c3933cf97a116821e58f071e75ad1ad",
       "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6b8b61a3_d6adc62e",
+        "filename": "omni_n801x.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000515
+      },
+      "writtenOn": "2014-01-10T14:32:04Z",
+      "side": 1,
+      "message": "That\u0027s ok!\nWe can left it as it is. I mean as N8013.\nI will check assert.",
+      "parentUuid": "6b8b61a3_168f2ed1",
+      "revId": "f1c781551c3933cf97a116821e58f071e75ad1ad",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
     }
   ]
 }
