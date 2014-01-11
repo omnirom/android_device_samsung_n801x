@@ -1,6 +1,12 @@
 [
     {
         "remote": "omnirom",
+        "repository": "android_device_samsung_n80xx-common",
+        "target_path": "device/samsung/n80xx-common",
+        "revision": "android-4.4"
+    },
+    {
+        "remote": "omnirom",
         "repository": "android_device_samsung_smdk4412-common",
         "target_path": "device/samsung/smdk4412-common",
         "revision": "android-4.4"
