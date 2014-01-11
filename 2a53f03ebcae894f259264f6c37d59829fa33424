@@ -16,6 +16,23 @@
       "revId": "2a53f03ebcae894f259264f6c37d59829fa33424",
       "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cb5d2d02_386289d7",
+        "filename": "omni_n801x.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000008
+      },
+      "writtenOn": "2014-01-11T18:41:02Z",
+      "side": 1,
+      "message": "This is one thing that probably should remain N8013 so the device reports as a \"real\" device",
+      "revId": "2a53f03ebcae894f259264f6c37d59829fa33424",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
     }
   ]
 }
