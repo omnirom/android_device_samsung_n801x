@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cb5d2d02_b8a8598a",
+        "filename": "omni_n801x.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000183
+      },
+      "writtenOn": "2014-01-12T01:22:48Z",
+      "side": 1,
+      "message": "Changed back to N8013.",
+      "revId": "08239b2fd8af86760d9093842a1b17d69302960e",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
