@@ -27,3 +27,5 @@ TARGET_OTA_ASSERT_DEVICE := c0,p4notewifi,p4notewifiww,n8013,GT-N8013,n8010,GT-N
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/n801x/bluetooth
+
+TARGET_INIT_VENDOR_LIB := libinit_n801x
