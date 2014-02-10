@@ -30,6 +30,3 @@ PRODUCT_DEVICE := n801x
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := GT-N8013
-
-# Set build fingerprint / ID / Product Name etc.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-N8013 TARGET_DEVICE=GT-N8013 BUILD_FINGERPRINT="samsung/p4noterfxx/p4noterf:4.0.4/IMM76D/N8000XWALG9:user/release-keys" PRIVATE_BUILD_DESC="samsung/p4notewifiue/p4notewifi:4.0.4/IMM76D/N8013UEALH2:user/release-keys"
