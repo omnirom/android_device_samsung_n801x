@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ab62b9bd_984c5fe5",
+        "filename": "bluetooth/bdroid_buildcfg.h",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000008
+      },
+      "writtenOn": "2014-02-12T22:19:03Z",
+      "side": 1,
+      "message": "Ideally we want to figure out how to change this along with everything else at runtime.  But that can probably wait for a later patchset.",
+      "revId": "f3af6dcca95935eefda0a92ec1e2b80f91b79a69",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
