@@ -28,7 +28,8 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_COPY_FILES += \
-    device/samsung/n80xx-common/configs/tiny_hw.xml:system/etc/sound/GT-N8013
+    device/samsung/n80xx-common/configs/tiny_hw.xml:system/etc/sound/GT-N8013 \
+    device/samsung/n80xx-common/configs/tiny_hw.xml:system/etc/sound/GT-N8010
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
