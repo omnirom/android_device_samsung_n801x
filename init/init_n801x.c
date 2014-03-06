@@ -54,21 +54,23 @@ void vendor_load_properties()
         return;
     /* Collect N801X info */
     NOTICE("Bootloader string %s", bootloader);
-    if (strncmp(bootloader, "N8013", 5) == 0) {
-        NOTICE("Detected N8013\n");
-        property_set("ro.product.device", "GT-N8013");
-        property_set("ro.product.model", "GT-N8013");
-        property_set("ro.product.name", "GT-N8013");
-        property_set("ro.build.description", "p4notewifiue-user 4.1.2 JZO54K N8013UEUCMD3 release-keys");
-        property_set("ro.build.fingerprint", "samsung/p4notewifiue/p4notewifi:4.1.2/JZO54K/N8013UEUCMD3:user/release-keys");
-    }else if(strncmp(bootloader, "N8010", 5) == 0) {
+    if (strncmp(bootloader, "N8010", 5) == 0) {
+        /* p4notewifiww */
         NOTICE("Detected N8010\n");
-        property_set("ro.product.device", "GT-N8010");
         property_set("ro.product.model", "GT-N8010");
-        property_set("ro.product.name", "GT-N8010");
+        property_set("ro.product.name", "p4notewifixx");
+        property_set("ro.product.device", "p4notewifiww");
         property_set("ro.build.description", "p4notewifixx-user 4.1.2 JZO54K N8010XXUCMK2 release-keys");
         property_set("ro.build.fingerprint", "samsung/p4notewifixx/p4notewifiww:4.1.2/JZO54K/N8010XXUCMK2:user/release-keys");
-    }else {
+    } else if (strncmp(bootloader, "N8013", 5) == 0) {
+        /* p4notewifi */
+        NOTICE("Detected N8013\n");
+        property_set("ro.product.model", "GT-N8013");
+        property_set("ro.product.name", "p4notewifiue");
+        property_set("ro.product.device", "p4notewifi");
+        property_set("ro.build.description", "p4notewifiue-user 4.1.2 JZO54K N8013UEUCMI3 release-keys");
+        property_set("ro.build.fingerprint", "samsung/p4notewifiue/p4notewifi:4.1.2/JZO54K/N8013UEUCMI3:user/release-keys");
+    } else {
         ERROR("Could not detect N801x variant\n");
     }
 }
