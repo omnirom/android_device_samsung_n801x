@@ -18,8 +18,8 @@
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
-# Inherit from our omni product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit common Omni configurations
+$(call inherit-product, vendor/omni/config/common_tablet.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/n801x/device.mk)
