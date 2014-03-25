@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2013 OmniROM Project
+# Copyright (C) 2014 OmniROM Project
 # Copyright (C) 2013 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,9 +17,6 @@
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
-
-# Inherit from our omni product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/n801x/device.mk)
